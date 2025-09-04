@@ -156,7 +156,7 @@ class AgendaAcademica:
             for evento in self.eventos[self.data_selecionada]:
                 self.lista_eventos.insert(tk.END, f"{evento['hora']}p - {evento['titulo']} ({evento['tipo']})")
         
-        self.label_status.config(text=f"Mostrando eventos de {data_obj.strftime('%d/%m/%Y')}")
+        self.label_status.config(text=f"Mostrando Eventos de {data_obj.strftime('%d/%m/%Y')}")
         
     def novo_evento(self):
         if not self.data_selecionada:
