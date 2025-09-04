@@ -10,8 +10,8 @@ class AgendaAcademica:
         self.janela = tk.Tk()
         self.janela.title("Agenda Acadêmica")
         self.janela.geometry("900x600")
-        self.janela.configure(bg='#f0f0f0')
-        self.janela.resizable(True, True)
+        self.janela.configure(bg="#f6f2f2")
+        self.janela.resizable(True,True )
         
         # Dados
         self.data_atual = datetime.now()
@@ -154,7 +154,7 @@ class AgendaAcademica:
         # Adicionar eventos
         if self.data_selecionada in self.eventos:
             for evento in self.eventos[self.data_selecionada]:
-                self.lista_eventos.insert(tk.END, f"{evento['hora']} - {evento['titulo']} ({evento['tipo']})")
+                self.lista_eventos.insert(tk.END, f"{evento['hora']}p - {evento['titulo']} ({evento['tipo']})")
         
         self.label_status.config(text=f"Mostrando eventos de {data_obj.strftime('%d/%m/%Y')}")
         
@@ -341,6 +341,8 @@ Disciplina: {evento['disciplina']}
     def salvar_eventos(self):
         with open("eventos.json", "w") as f:
             json.dump(self.eventos, f)
+
+            
             
     def executar(self):
         # Centralizar a janela
