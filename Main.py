@@ -160,7 +160,7 @@ class AgendaAcademica:
         
     def novo_evento(self):
         if not self.data_selecionada:
-            messagebox.showwarning("Aviso", "Selecione uma data primeiro!")
+            messagebox.showwarning("Aviso", "Selecione uma Data Primeiro!")
             return
             
         self.janela_evento("Adicionar Evento")
