@@ -1,0 +1,20 @@
+{
+    "duduu": {
+        "senha_hash": "736ff4dee4887e8e832ea2fc55d4eda0d46f078d42a4097571506f56dad25b56",
+        "nome": "ss",
+        "matricula": "444",
+        "email": "carloseduardo@gmail.com",
+        "curso": "Sistema de Informa\u00e7\u00e3o",
+        "turno": "Noturno",
+        "data_registro": "2025-09-04 22:55:28"
+    },
+    "carlos": {
+        "senha_hash": "736ff4dee4887e8e832ea2fc55d4eda0d46f078d42a4097571506f56dad25b56",
+        "nome": "carlos eduardo veras de almeida",
+        "matricula": "20221080030097",
+        "email": "carloseduardoveras45@gmail.com",
+        "curso": "Sistema de Informa\u00e7\u00e3o",
+        "turno": "Noturno",
+        "data_registro": "2025-09-04 22:57:58"
+    }
+}
